@@ -1,0 +1,41 @@
+/*
+    off-white: #F8F8FF
+    Blue: #0460D9
+    Yellow: #F2A341
+    Red: #AF2323
+*/
+body {
+    background-color: #F8F8FF;
+}
+
+img {
+    width: 800px;
+    display: block;
+    margin: auto;
+    padding: 50px;
+}
+
+h1 {
+    color: #0460D9;
+    text-align: center;
+}
+
+h2 {
+    color: #AF2323;
+}
+
+a {
+    color: #F2A341;
+}
+
+a:hover {
+    color: #0460D9;
+}
+
+th, td{
+    border: solid 2px #0460D9;
+}
+
+table {
+    border-collapse: collapse;
+}
