@@ -1,0 +1,56 @@
+/*
+  white: #FFFFFF
+  A1: Orange: #F29057
+  A2: Light Blue: #50D4F2
+*/
+
+h1,h2,h3 {
+  color: #F29057;
+}
+
+h1 {
+  text-align: center;
+}
+
+td, th {
+  border: solid 1px #50D4F2;
+  padding: 5px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+a {
+  color: #F29057;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #50D4F2;
+}
+
+p.textContent {
+  background-color: #F29057;
+  color: white;
+  width: auto;
+  padding: 20px;
+  border: dotted 2px #50D4F2;
+  margin: 50px;
+}
+
+div {
+  background-color: #F29057;
+  width: 646;
+  padding: auto;
+  border: dashed 5px #50D4F2;
+  margin: 50px;
+}
+
+/*I want the last image centered so I did. I like it center in the orange box....*/
+img.centered {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
